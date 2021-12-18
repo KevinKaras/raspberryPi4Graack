@@ -18,10 +18,10 @@ sensor.getAll(function (err, tempObj) {
     console.log("This will be an object with all the temperatures graack", tempObj);
 });
 
-// sensor.get('YOURE SENSOR ID HERE', function (err, temp) {
-//     console.log(temp);
-//     document.getElementById("temperature").innerText = "Temperature: " + temp
-// });
+sensor.get('28-3c01f0968d31', function (err, temp) {
+    console.log(temp);
+    document.getElementById("temperature").innerText = "Temp: " + temp
+});
 
 
 
